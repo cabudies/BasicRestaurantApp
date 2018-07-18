@@ -43,6 +43,7 @@
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:hint="Enter your name."
+                android:id="@+id/customer_name"
                 android:inputType="text"/>
 
         </LinearLayout>
@@ -64,6 +65,7 @@
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:hint="Enter your age."
+                android:id="@+id/customer_age"
                 android:inputType="number"/>
 
         </LinearLayout>
@@ -84,6 +86,7 @@
             <Spinner
                 android:layout_width="0dp"
                 android:layout_weight="4"
+                android:id="@+id/menu_spinner"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
@@ -105,6 +108,7 @@
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
                 android:hint="Enter quanity"
+                android:id="@+id/order_quantity"
                 android:inputType="number"/>
 
         </LinearLayout>
@@ -113,6 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Place Order"
+            android:id="@+id/place_order"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"/>
 
