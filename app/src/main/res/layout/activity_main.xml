@@ -107,7 +107,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="4"
                 android:layout_height="wrap_content"
-                android:hint="Enter quanity"
+                android:hint="Enter quantity"
                 android:id="@+id/order_quantity"
                 android:inputType="number"/>
 
